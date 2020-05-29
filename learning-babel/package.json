@@ -1,0 +1,26 @@
+{
+  "name": "learning-babel",
+  "version": "1.0.0",
+  "description": "Use Babel to transpile Javascript ES6 to ES5",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glennlaw-0/learning-babel.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "Glenn Law",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glennlaw-0/learning-babel/issues"
+  },
+  "homepage": "https://github.com/Glennlaw-0/learning-babel#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
