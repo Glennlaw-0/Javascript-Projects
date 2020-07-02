@@ -15,3 +15,6 @@ wp-congif.php
 
 #VsCode Workspace
 .vscode
+
+#Package.json file
+.package.json
