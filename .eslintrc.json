@@ -3,15 +3,15 @@
     "browser": true,
     "es2020": true
   },
-  "extends": ["airbnb", "prettier", "plugin:node/recommended"],
+  "extends": ["airbnb-base", "prettier", "plugin:node/recommended"],
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
-    "no-console": "off",
-    "func-names": "off",
-    "no-process-exit": "off",
-    "object-shorthand": "off",
-    "class-methods-use-this": "off"
+    "no-console": "warn",
+    "func-names": "warn",
+    "no-process-exit": "warn",
+    "object-shorthand": "warn",
+    "class-methods-use-this": "warn"
   }
 }
